@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogaga Holidays</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+    <!-- Header content -->
+    <header>
+      <div class="nav-1">
+        <nav class="navbar navbar-expand-md navbar-light bg-light" id="navbar">
+            <img src="assets/logo.png" id="logo"/>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link ml-auto" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-auto" href="#holidaysPackages">Holiday Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-auto" href="#flightBooking">Flight Booking</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-auto" href="#luxuryPackages">Luxury Packages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-auto" href="#hotelBooking">Hotel Booking</a>
+                </li>
+              </ul>
+            </div>
+        </nav> 
+      </div>
+      <div class="nav-2">
+        <nav class="navbar fixed-top navbar-light bg-light">
+          <img src="assets/logo.png" id="logo"/>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link ml-auto" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ml-auto" href="#holidaysPackages">Holiday Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ml-auto" href="#flightBooking">Flight Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ml-auto" href="#luxuryPackages">Luxury Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ml-auto" href="#hotelBooking">Hotel Booking</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    </header>
+
+    <!-- Main content -->
+    <main class="main-section">
+        <!-- Hero Section -->
+        <div id='heroSection' class="hero-section">
+            <div class="hero-content">
+                <p id="hero-content-para">A Promise of a memorable travel experience</p>
+                <h1>Does your Holiday need to be customized?</h1>
+                <p>Yes! We believe that every holiday needs to be customized as they are unique. Explore our customized holidays for a memorable holiday experience.</p>
+                <button class="button">Book Now</button>
+            </div> 
+        </div>
+
+        <!-- Holidays Package Section -->
+        <div id='holidaysPackages' class="holiday-packages">
+          <div>
+            <h2>Trending Indian Destinations</h2>
+            <p>India is a country with diversified travel destinations. We have mastered various holiday options to make our customer experiences more memorable.</p>
+          </div>
+            <div class="holiday-packages-content">
+                <div class="holiday-package holiday-package-container-1">
+                    <h3>Goa</h3>
+                    <p>Range starts from INR 8,999  Per Person</p>
+                </div>
+
+                <div class="holiday-package holiday-package-container-2">
+                    <h3>Andaman</h3>
+                    <p>Range starts from INR 9,999  Per Person</p>
+                </div>
+                
+                <div class="holiday-package holiday-package-container-3">
+                    <h3>Himachal</h3>
+                    <p>Range starts from INR 11,999  Per Person</p>
+                </div>
+
+                <div class="holiday-package holiday-package-container-4">
+                  <h3>Rajasthan</h3>
+                  <p>Range starts from INR 13,999  Per Person</p>
+                </div>
+
+                <div class="holiday-package holiday-package-container-5">
+                  <h3>Srinagar</h3>
+                  <p>Range starts from INR 14,999  Per Person</p>
+                </div>
+
+                <div class="holiday-package holiday-package-container-6">
+                  <h3>Karnataka</h3>
+                  <p>Range starts from INR 12,999  Per Person</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Flight Booking Section -->
+        <div id="flightBooking" class="flight-bookings">
+          <div>
+            <h2>Flight Booking</h2>
+            <p>Search and book your flights with ease. Enter your travel details below:</p>
+          </div>
+          <div class="flight-booking-content">
+            <form>
+              <div class="form-group">
+                <label for="departure">Departure</label>
+                <input type="text" class="form-control" id="departure" placeholder="Enter departure city">
+              </div>
+              <div class="form-group">
+                <label for="destination">Destination</label>
+                <input type="text" class="form-control" id="destination" placeholder="Enter destination city">
+              </div>
+              <div class="form-group">
+                <label for="departureDate">Departure Date</label>
+                <input type="date" class="form-control" id="departureDate">
+              </div>
+              <div class="form-group">
+                <label for="returnDate">Return Date</label>
+                <input type="date" class="form-control" id="returnDate">
+              </div>
+              <button type="submit" class="btn btn-info">Search Flights</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Luxury Package Section -->
+        <div id="luxuryPackages" class="luxury-packages">
+          <div>
+            <h2>Luxury Packages</h2>
+            <p>Experience the luxury of travel with our luxury holiday packages. We have handpicked the best luxury destinations for you.</p>
+          </div>
+          <div class="luxury-packages-content">
+
+            <div class="luxury-package luxury-package-container-1 mt-4">
+              <img src="assets/luxury-package/luxury-image-1.jpg" class="luxury-package-image"/>
+              <div class="days-nights">4 Nights / 5 Days</div>
+              <h3>Luxurious Munnar Thekkedey & Alleppey</h3>
+              <p><span class="old-price">₹27,999.00  </span><span>₹24,999.00</span></p>
+            </div>
+
+            <div class="luxury-package luxury-package-container-2 mt-4">
+              <img src="assets/luxury-package/luxury-image-2.jpg" class="luxury-package-image"/>
+              <div class="days-nights">3 Nights / 4 Days</div>
+              <h3>Munnar Thekkedey & Alleppey</h3>
+              <p><span class="old-price">₹27,999.00  </span><span>₹24,999.00</span></p>
+            </div>
+
+            <div class="luxury-package luxury-package-container-3 mt-4">
+              <img src="assets/luxury-package/luxury-image-3.jpg" class="luxury-package-image"/>
+              <div class="days-nights">5 Nights / 6 Days</div>
+              <h3>Luxurious Munnar & Alleppey</h3>
+              <p><span class="old-price">₹27,999.00  </span><span>₹24,999.00</span></p>
+            </div>
+
+            <div class="luxury-package luxury-package-container-4 mt-4">
+              <img src="assets/luxury-package/luxury-image-4.jpg" class="luxury-package-image"/>
+              <div class="days-nights">8 Nights / 9 Days</div>
+              <h3>Luxurious Alleppey & Munnar Thekkedey</h3>
+              <p><span class="old-price">₹27,999.00  </span><span>₹24,999.00</span></p>
+            </div>
+
+            <div class="luxury-package luxury-package-container-5 mt-4">
+              <img src="assets/luxury-package/luxury-image-5.jpg" class="luxury-package-image"/>
+              <div class="days-nights">3 Nights / 4 Days</div>
+              <h3>Luxurious Alleppey Munnar & Thekkedey</h3>
+              <p><span class="old-price">₹27,999.00  </span><span>₹24,999.00</span></p>
+            </div>
+
+            <div class="luxury-package luxury-package-container-6 mt-4">
+              <img src="assets/luxury-package/luxury-image-6.jpg" class="luxury-package-image"/>
+              <div class="days-nights">5 Nights / 6 Days</div>
+              <h3>Luxurious Munnar Thekkedey & Alleppey</h3>
+              <p><span class="old-price">₹27,999.00  </span><span>₹24,999.00</span></p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Hotel Booking Section -->
+        <div id="hotelBooking" class="hotel-booking">
+          <div>
+            <h2>Hotel Booking</h2>
+            <p>Search and book your hotels with ease. Enter your destination and travel dates below:</p>
+          </div>
+          <div class="hotel-booking-content">
+            <form>
+              <div class="form-group">
+                <label for="destination">Destination</label>
+                <input type="text" class="form-control" id="destination" placeholder="Enter destination city">
+              </div>
+              <div class="form-group">
+                <label for="checkInDate">Check-in Date</label>
+                <input type="date" class="form-control" id="checkInDate">
+              </div>
+              <div class="form-group">
+                <label for="checkOutDate">Check-out Date</label>
+                <input type="date" class="form-control" id="checkOutDate">
+              </div>
+              <button type="submit" class="btn btn-info">Search Hotels</button>
+            </form>
+          </div>
+        </div>
+
+    </main>
+
+    <!-- Footer content -->
+    <footer class="footer">
+        <div class="footer-section-1">
+          <div class="footer-text">
+            <h1>A World of <span class="footer-span-element">Adventures</span> awaiting for you</h1>
+            <p>We believe that absolute customer satisfaction is a result of extraordinary customer service. We love to make every trip of our customer filled with fun & joy with our dedicated commitment. To enthrall your true happiness in holidaying explore your next holiday with us.</pp>
+          </div>
+          <div class="social-icons-container">
+            <ul class="social-icons">
+              <img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
+              <img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/>
+              <img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/>
+              <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/>
+            </ul>
+          </div>
+        </div>
+        <hr class="line"/>
+        <div class="footer-section-2">
+          <div>
+            <h3>Popular Indian Destinations</h3>
+            <p>Trips to Golden Triangle  |  Trips to Delhi  |  Tips to Shimla & Manali  |  Trips to Jammu & Kashmir  |  Trips to Punjab  |  Trips to Rajasthan  |  Trips to Gujarat  |  Trips to Uttrakhand  |  Trips to Maharastra  |  Trips to Karnataka  |  Trips to Kerala  |  Trips to Tamilnadu  |  Trips to Andhra Pradesh  |  Trips to Odisha  |  Trips to West Bengal  |  Trips to Sikkim  |  Trips to Madhya Pradesh  |  Trips to Uttar Pradesh  |  Trips to Andaman & Nicobar  |  Trips to Goa</p>
+          </div>
+          <hr class="line sub-line"/>
+          <div>
+            <h3>Popular International Destinations</h3>
+            <p>Trips to Thailand  |  Trips to Singapore  |  Trips to Malaysia  |  Trips to Dubai  |  Trips to Sri Lanka  |  Trips to Maldives  |  Trips to Mauritius  |  Trips to Europe  |  Trips to Australia  |  Trips to New Zealand  |  Trips to Russia  |  Trips to Hong Kong  |  Trips to Cambodia  |  Trips to Vietnam  |  Trips to Nepal  |  Trips to Uzbekistan  | Trips to America  |  Trips to Turkey  |  Trips to Kazakhstan  |  Trips to Philippines  |  Trips to Azerbaijan  |  Trips to Africa </p>
+          </div>
+          <hr class="line sub-line"/>
+          <div>
+            <h3>Products</h3>
+            <p>Honeymoons  |  Pilgrims  |  Adventures  |   Beach Holidays  |  Family Holidays  |  Educational Holidays  |  Multi city Holidays</p>
+          </div>
+          <hr class="line sub-line"/>
+          <div>
+            <h3>Support</h3>
+            <p>About Us  |  Partner Program  |  Partner Login  |  Customer Support  |  Happy Customers  |  FAQ's  |  Payment Options  |  Privacy Policy  |  Terms & Conditions  |  Cancellation Policy  |  Lead Generators  |   Itinerary Request Form |  Careers  |  Contact Us</p>
+          </div>
+          <hr class="line sub-line"/>
+        </div>
+        <div class="copy-rights">
+            <p class="text-center m-3">© 2024 Gogaga Holidays. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

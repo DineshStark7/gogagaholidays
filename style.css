@@ -1,0 +1,408 @@
+.body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    width: 80px;
+    height: 40px;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:white;  
+    display: flex;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30%;
+    padding: 0;
+    text-align: center;
+}
+.main-section{
+    padding: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+#navbarNav{
+    text-align: right;
+}
+.hero-section{
+    background-image: url('assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:auto;
+}
+.hero-content h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.hero-content p{
+    font-size: 15px;
+    margin-bottom: 1rem;
+    width: 40%;
+
+}
+#hero-content-para{
+    font-size: 25px;
+    font-family: 'Waltograph', cursive;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.button{
+    background-color: aqua;
+    color:black;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    height:40px;
+    width:100px;
+}
+.holiday-packages{
+    padding: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.holiday-packages-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.holiday-package{
+    width: 270px;
+    height:450px;
+    margin: 0 1rem;
+    padding: 1rem;
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-size: cover;
+    text-align: left;
+}
+.holiday-package-container-1{
+    background-image: url('assets/holiday-packages/Goa.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.holiday-package-container-2{
+    background-image: url('assets/holiday-packages/Andaman.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.holiday-package-container-3{
+    background-image: url('assets/holiday-packages/Himachal.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.holiday-package-container-4{
+    background-image: url('assets/holiday-packages/Rajasthan.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.holiday-package-container-5{
+    background-image: url('assets/holiday-packages/Srinagar.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.holiday-package-container-6{
+    background-image: url('assets/holiday-packages/Karnataka.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.holiday-package h3{
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.holiday-package:hover{
+    transform: translateY(-10px);
+}
+.luxury-packages{
+    padding: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.luxury-packages-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.luxury-package{
+    width: 270px;
+    height:450px;
+    margin: 0 1rem;
+    padding: 1rem;
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-size: cover;
+    text-align: left;
+
+}
+.luxury-package-image{
+    width: 250px;
+    height: 250px;
+    border-radius:10px
+}
+.days-nights{
+    background-color:forestgreen;
+    height:30px;
+    width: 180px;
+    border-radius: 5px;
+    color: #f4f4f4;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.luxury-package h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.old-price{
+    text-decoration: line-through;
+    margin-right: 0.5rem;
+}
+.flight-bookings{
+    background-image: url('assets/flight-booking.jpg');
+    background-size: cover;
+    height: 100%;
+    padding: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 50px rgba(0.1, 0.1, 0.1, 0.1);
+    color: #fff;
+    align-self: center;
+    border-radius: 20px;
+
+}
+.flight-booking-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    width: 100%;
+}
+.flight-booking{
+    width: 300px;
+    height:450px;
+    margin: 0 1rem;
+    padding: 1rem;
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-size: cover;
+    text-align: left;
+}
+.flight-booking h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.flight-booking:hover{
+    transform: translateY(-10px);
+}
+.hotel-booking{
+    background-image: url('assets/hotel-booking.jpg');
+    background-size: cover;
+    height: 100%;
+    padding: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 50px rgba(0.1, 0.1, 0.1, 0.1);
+    color: #fff;
+    align-self: center;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-section-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+
+}
+.footer-text{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+.footer-section-2{
+    background-color: white;
+    padding: 2rem 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width: 60%;
+    align-self: center;
+    padding:30px;
+
+}
+.footer-section-2 h3{
+    font-size: 20px;
+    font-family: Roboto,'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+}
+.footer-section-2 p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: gray;
+}
+.footer-span-element{
+    color: skyblue;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.social-icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+    align-self: center;
+}
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+.line{
+    align-self: center;
+    width: 60%;
+    height: 1px;
+    margin: auto;
+    background-color: #f4f4f4;
+    margin: 3rem 0;
+}
+.sub-line{
+    width: 100%; 
+}
+.copy-rights{
+    text-align: center;
+    padding: 1rem 0;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+@media (orientation: portrait){
+    .nav-1{
+        display: none;
+    }
+    .nav-2{
+        display: block;
+    }
+}
+@media (orientation: landscape){
+    .nav-1{
+        display: block;
+    }
+    .nav-2{
+        display: none;
+    }
+}
