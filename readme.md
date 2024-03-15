@@ -40,13 +40,6 @@ No installation is required to access the website. Simply open the `index.html` 
 
 Users can navigate through the website using the links provided in the navigation bar. They can explore holiday packages, book flights, explore luxury packages, and book hotels as per their preferences.
 
-## Contributing <a name="contributing"></a>
-
-Contributions to the website are welcome. If you find any issues or have suggestions for improvements, please feel free to create a pull request or raise an issue on the GitHub repository.
-
-## License <a name="license"></a>
-
-The Gogaga Holidays website is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
 
 ---
 © 2024 Gogaga Holidays. All Rights Reserved.
