@@ -9,8 +9,6 @@ This document provides an overview of the structure and functionality of the Gog
 3. [Folder Structure](#folder-structure)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
 
 ## Introduction <a name="introduction"></a>
 
